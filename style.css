@@ -1,24 +1,46 @@
 header{
     height: 200px;
-    background-color: rgb(200, 228, 159);
+    background-color: gray;
+}
+body{
+    background-image: url(https://i.pinimg.com/originals/2a/88/e9/2a88e97d780e646b53c36b85af2ca1db.jpg);
+}
+nav{
+    background-color: gray;
+    border: solid black 2px;
 }
 main{
-    height: 500px;
-    background-color: greenyellow
+    height: 900px;
 }
-main section{
-    height: 150px;
-    background-color: mediumseagreen;
+.destaque{
+    
+    height: 200px;
+}
+.artigo{
+    background-color: rgb(117, 40, 34);
+    height: 200px;
+}
+h1{
+    color: silver;
+}
+img{
+    width: 32%;
 }
 aside{
-    background-color: rgb(96, 210, 96);
-    height: 500px;
+    height: 900px;
 }
 aside section{
-    height: 30px;
-    background-color: aquamarine;
+    height: 100px;
+    background-color: gray;
+}
+#saside{
+    height: auto;
+    margin-top: 24;
+}
+#bside{
+    height: auto;
 }
 footer{
     height: 200px;
-    background-color: forestgreen;
+    background-color: rgb(0, 0, 0);
 }

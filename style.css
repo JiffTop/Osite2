@@ -10,7 +10,7 @@ nav{
     border: solid black 2px;
 }
 main{
-    height: 900px;
+    height: 850px;
 }
 .destaque{
     
@@ -26,8 +26,14 @@ h1{
 img{
     width: 32%;
 }
+#destaque-img{
+    width: 110%;
+}
+.ferrari{
+    width: 100%;
+}
 aside{
-    height: 900px;
+    height: 590px;
 }
 aside section{
     height: 100px;

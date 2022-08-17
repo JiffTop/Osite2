@@ -46,6 +46,9 @@ aside section{
     height: 100px;
     background-color: gray;
 }
+aside .list-group-item{
+    background-color: gray!important;
+}
 #saside{
     height: auto;
     margin-top: 24;

@@ -1,12 +1,17 @@
+:root{
+    --cor-principal: gray;
+    --cor-secundária: black;
+    --cor-de-terciaira:rgb(71, 71, 71);
+}
 header{
     height: 100px;
     background-color: gray;
 }
 body{
-    background-image: url(https://i.pinimg.com/originals/2a/88/e9/2a88e97d780e646b53c36b85af2ca1db.jpg);
+   background-color: var(--cor-de-terciaira);
 }
 nav{
-    background-color: gray;
+    background-color: var(--cor-principal);
     border: solid black 2px;
     height: 100px;
 }
@@ -18,7 +23,7 @@ main{
     height: 200px;
 }
 .card{
-    background-color: gray;
+    background-color: var(--cor-principal);
 }
 .artigo{
     background-color: rgb(117, 40, 34);
@@ -44,10 +49,10 @@ aside{
 }
 aside section{
     height: 100px;
-    background-color: gray;
+    background-color: var(--cor-principal);
 }
 aside .list-group-item{
-    background-color: gray!important;
+    background-color: var(--cor-principal);
 }
 #saside{
     height: auto;
@@ -57,6 +62,8 @@ aside .list-group-item{
     height: auto;
 }
 footer{
-    height: auto;
-    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    height: 100px;
+    background-color: var(--cor-secundária);
 }
